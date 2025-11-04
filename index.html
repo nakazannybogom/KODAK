@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barsa - Landing Page</title>
+
+    <!-- Swiper styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Shader Effect styles -->
+    <link
+      rel="stylesheet"
+      href="assets/dist/lib/swiperSlider/swiper-gl.min.css"
+    />
+
+    <!-- font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="assets/dist/framework/bootstrap/css/bootstrap.min.css"
+    />
+
+    <!-- Theme Files -->
+    <link rel="stylesheet" href="assets/dist/theme/css/color.css" />
+    <link rel="stylesheet" href="assets/dist/theme/css/theme.css" />
+    <link rel="stylesheet" href="assets/dist/theme/css/responsive.css" />
+    <link rel="stylesheet" href="assets/dist/theme/css/animation.css" />
+
+  </head>
+  <body>
+
+    <!-- Barsa Main -->
+    <div class="barsa" id="scroll-content">
+      <!-- header -->
+      <header id="top" class="barsa-header">
+        <!-- Navigation -->
+        <nav
+          class="barsa-nav align-items-center d-flex justify-content-between"
+        >
+          <!-- Logo  -->
+          <a href="#">
+            <div class="logo">
+              <img src="assets/images/header/icon.png" alt="Logo" />
+              <h1>
+                <span>KODAK</span>
+              </h1>
+            </div>
+          </a>
+
+          <!-- Menu-list -->
+          <ul
+            class="desktopNav header-Nav mb-0 list-unstyled d-flex align-items-center gap-5"
+          >
+            <li><a href="#top">Главная</a></li>
+            <li><a href="#about_us_comp">О нас</a></li>
+            <li><a href="#pricing">Цены</a></li>
+          </ul>
+
+          <!-- Mobile Nav -->
+          <div class="mobileNav position-relative hamMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- button nav -->
+            <ul class="hamContent header-Nav mb-0 list-unstyled gap-5">
+              <li><a href="#top">Главная</a></li>
+            <li><a href="#about_us_comp">О нас</a></li>
+            <li><a href="#pricing">Цены</a></li>
+            </ul>
+          </div>
+
+          <!-- Social media -->
+          <div class="more">
+
+            <!-- Hamburger menu -->
+            <div class="hamMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <ul class="hamContent barsa-list3 list-unstyled m-0">
+                <li>
+                  <i class="fa-solid fa-circle-right"></i>
+                  <a href="#about_us_comp">О нас</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-right"></i>
+                  <a href="#pricing">Цены</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero section -->
+        <section class="barsa-hero py-5 padding-y-80 pb-0">
+          <div class="container">
+            <div class="tag">Пользователи оценивают нас</div>
+
+            <div class="rating my-2">
+              <h3 class="barsa-h3 big dark">4.7+</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <h1 class="barsa-h1 text-center">Копировальный Центр</h1>
+            <p class="barsa-desc text-center w-75 mx-auto">
+              Мы занимаемся распечаткой фотографии, работа с документами, продажа канцелярских товаров.
+            </p>
+          </div>
+        </section>
+      </header>
+
+      <!-- barsa about 2 -->
+      <section id="about_us_comp"
+        class="barsa-about progress-text barsa-cut position-relative margin-y-80 padding-y-80"
+      >
+        <div class="container position-relative z-3">
+          <div class="row align-items-center">
+            <div class="col-md-6 ps-4">
+              <span class="tag2">Наши услуги</span>
+              <h2 class="barsa-h2 dark">
+                KODAK Сервис
+              </h2>
+              <p class="barsa-desc">
+                Мы на рынке уже больше 10 лет, и за это время мы выполнили очень большой объем работы.
+              </p>
+
+              <button class="mt-4 barsa-button3 d-flex align-items-center">
+                Свяжитесь с нами
+                <span
+                  ><i class="fa-solid fa-arrow-up-long"></i
+                  ><i class="fa-solid fa-arrow-up-long"></i
+                ></span>
+              </button>
+            </div>
+            <div class="col-md-6 position-relative">
+              <img
+                src="assets/images/about/about2.png"
+                alt="About"
+                class="w-100"
+              />
+            </div>
+          </div>
+
+          <!-- counter -->
+          <div class="row pt-5">
+            <div class="col-md-3 sm-50 col-sm-3 star position-relative">
+              <div class="counter">
+                <div class="count"><span>556</span>k</div>
+                Обслужено клиентов
+              </div>
+            </div>
+            <div class="col-md-3 sm-50 col-sm-3 nStar star position-relative">
+              <div class="counter">
+                <div class="count"><span>256</span>k</div>
+                Распечатано документов
+              </div>
+            </div>
+            <div class="col-md-3 sm-50 col-sm-3 star position-relative">
+              <div class="counter">
+                <div class="count"><span>356</span>k</div>
+                Сделано фотографии
+              </div>
+            </div>
+            <div class="col-md-3 sm-50 col-sm-3 position-relative">
+              <div class="counter">
+                <div class="count"><span>255</span>k</div>
+                Отредактировано фото
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hero Background -->
+        <div class="heroBG bg">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+
+      <!-- Pricing section -->
+      <section id="pricing" class="barsa-pricing">
+        <div class="container">
+          <span class="tag2 mx-auto">Наши цены</span>
+          <h2 class="barsa-h2 text-center dark mb-5">Мы предлагаем вам.</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="pricingSingle position-relative">
+                <div class="wrapper position-relative z-3">
+                  <div class="row">
+                    <div class="sm-50 col-md-6 col-sm-6 toRight">
+                      <h4 class="barsa-h4">Распечатка чернобелых документов</h4>
+                      <button class="barsa-button4 mt-4">30ТГ за лист</button>
+                    </div>
+                    <div class="sm-50 col-md-6 col-sm-6 toLeft">
+                      <img
+                        src="assets/images/pricing/Payment Information-bro.png"
+                        alt="Pricing Image"
+                        class="w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="goTo"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="pricingSingle position-relative">
+                <div class="wrapper position-relative z-3">
+                  <div class="row">
+                    <div class="sm-50 col-md-6 col-sm-6 toRight">
+                      <h4 class="barsa-h4">Фотошоп изображении</h4>
+                      <button class="barsa-button4 mt-4">От 200ТГ за фотографию</button>
+                    </div>
+                    <div class="sm-50 col-md-6 col-sm-6 toLeft">
+                      <img
+                        src="assets/images/pricing/Typing-bro.png"
+                        alt="Pricing Image"
+                        class="w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="goTo"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="pricingSingle position-relative">
+                <div class="wrapper position-relative z-3">
+                  <div class="row">
+                    <div class="sm-50 col-md-6 col-sm-6 toRight">
+                      <h4 class="barsa-h4">Восстановление, и оцифровка</h4>
+                      <button class="barsa-button4 mt-4">100ТГ минута</button>
+                    </div>
+                    <div class="sm-50 col-md-6 col-sm-6 toLeft">
+                      <img
+                        src="assets/images/pricing/Version control-bro.png"
+                        alt="Pricing Image"
+                        class="w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="goTo"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="pricingSingle position-relative">
+                <div class="wrapper position-relative z-3">
+                  <div class="row">
+                    <div class="sm-50 col-md-6 col-sm-6 toRight">
+                      <h4 class="barsa-h4">
+                        Отправка данных по email адресам
+                      </h4>
+                      <button class="barsa-button4 mt-4">20ТГ за адрес</button>
+                    </div>
+                    <div class="sm-50 col-md-6 col-sm-6 toLeft">
+                      <img
+                        src="assets/images/pricing/Search engines-bro.png"
+                        alt="Pricing Image"
+                        class="w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="goTo"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- barsa about 3 -->
+      <section class="barsa-about padding-y-80 margin-y-80">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 position-relative">
+              <img
+                src="assets/images/gif/Version control.gif"
+                alt="About "
+                class="gifAnimate"
+              />
+            </div>
+            <div class="col-md-6 ps-4 position-relative z-3">
+              <span class="tag2">Мы гарантируем</span>
+              <h2 class="barsa-h2 dark">
+                С нашей стороны всегда качественные услуги
+              </h2>
+
+              <ul class="barsa-list2 my-4 row list-unstyled">
+                <li class="col-md-6">
+                  <img
+                    src="assets/images/about/listImages/l1.png"
+                    alt="About List"
+                  />
+                  Перепечатка в случае ошибок
+                </li>
+                <li class="col-md-6">
+                  <img
+                    src="assets/images/about/listImages/l4.png"
+                    alt="About List"
+                  />
+                  Быстрая скорость работы
+                </li>
+                <li class="col-md-6">
+                  <img
+                    src="assets/images/about/listImages/l2.png"
+                    alt="About List"
+                  />
+                  Удаление важных документов
+                </li>
+                <li class="col-md-6">
+                  <img
+                    src="assets/images/about/listImages/l5.png"
+                    alt="About List"
+                  />
+                  Сохранение фотографии для повторной распечатки
+                </li>
+                <li class="col-md-6">
+                  <img
+                    src="assets/images/about/listImages/l3.png"
+                    alt="About List"
+                  />
+                  Качественное обслуживание
+                </li>
+                <li class="col-md-6">
+                  <img
+                    src="assets/images/about/listImages/l6.png"
+                    alt="About List"
+                  />
+                  Хорошая клиентская база
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <footer class="pt-5 margin-y-80 mb-0">
+        <div class="container position-relative z-3">
+          <div
+            class="flex-wrap d-flex w-100 justify-content-between align-items-center my-5 pb-4 gap-2"
+          >
+           
+
+            <a href="https://wa.me/77769699993"><button class="barsa-button3 d-flex align-items-center">
+                WhatsApp
+              <span
+                ><i class="fa-solid fa-arrow-up-long"></i
+                ><i class="fa-solid fa-arrow-up-long"></i
+              ></span>
+            </button></a>
+          </div>
+          <div class="line"></div>
+          <div class="row py-5">
+            <div class="col-md-8">
+              <div class="blocks py-5">
+                <div class="wrapper">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <div class="row">
+                        <div class="col-md-6 col-sm-6 sm-50">
+                          <div class="block">
+                            <!-- footer list -->
+                            <ul class="barsa-list3 list-unstyled m-0">
+                              <li>
+                                <i class="fa-solid fa-circle-right"></i>
+                                <a href="#">Главная</a>
+                              </li>
+                              <li>
+                                <i class="fa-solid fa-circle-right"></i>
+                                <a href="#">Сервисы</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 sm-50">
+                          <div class="block">
+                            <!-- footer list -->
+
+                            <ul class="barsa-list3 list-unstyled m-0">
+                              <li>
+                                <i class="fa-solid fa-circle-right"></i>
+                                <a href="#">О нас</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                      <div
+                        class="logoDiv wrapper d-flex flex-column justify-content-end"
+                      >
+                        <a href="#"
+                          ><div class="logo light mb-4">
+                            <img
+                              src="assets/images/header/icon.png"
+                              alt="Icon"
+                            />
+                            <h1>KODAK<span>.</span></h1>
+                          </div>
+                        </a>
+                        <div class="line"></div>
+                        <h4 class="barsa-h4 mt-4 pt-3 footer-h4">
+                          Напиши нам на Email
+                        </h4>
+                        <a href="#" class="emailLink2">s-sbn@email.com</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line line-x"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <!-- barsa other block -->
+              <div class="address">
+                <div class="wrapper d-flex flex-column justify-content-center">
+                  <h4 class="barsa-h4 footer-h4">Наш адрес</h4>
+                  <h4 class="mt-3 fw-lighter barsa-h4 footer-h4 font-light">
+                    Казахстан ВКО Усть-Каменогорск Кабанбай батыра 99
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright mt-5">
+          KODAK All rights Reserved 2025
+        </div>
+
+        <!-- background -->
+        <div class="bg">
+          <img src="assets/images/backgrounds/overlay3.png" alt="Overlay" />
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- error -->
+    <div id="error"></div>
+
+    <!-- jQuery -->
+    <script src="assets/dist/lib/jQuery/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/dist/framework/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Shadder effect script -->
+    <script src="assets/dist/lib/swiperSlider/swiper-gl.min.js"></script>
+
+    <!-- circle text -->
+    <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <!-- gsap scrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <!-- gsap scrollto -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+
+    <!-- Smooth Scrollbar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.js"></script>
+
+    <!-- Marquee -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
+
+    <!-- Theme Files -->
+    <script src="assets/dist/theme/js/barsa.js"></script>
+    <script src="assets/dist/theme/js/popup/custom.js"></script>
+  </body>
+</html>
